@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulários</title>
+</head>
+<body>
+    <!-- tag form para formulários -->
+    <form enctype="multipart/form-data">
+        <!-- abraçar cada tag de um formulário utilizando o field set -->
+        <fieldset>
+            <legend> Cadastre-se </legend>
+
+            <label for="nome">Nome Completo: </label>
+            <input type="text" id="nome" name="nome" placeholder= "Digite seu nome">
+            <br>
+            <!-- tag legend para campo  -->
+            
+            <!-- place holder para acrescentar algo dentro do input -->
+            <label for="email">E.mail</label>
+            <!-- o for mapeia a box do input do email -->
+            <input type="email" id="email" name="email" placeholder= "Digite seu e.mail">
+            <br>
+
+            <label for="senha">Senha</label>
+            <!-- minlength e max lenngth determinam o comprimento do texto a ser digitado -->
+            <input type="password" id="senha" name="senha" placeholder= "Digite sua senha" minlength="8" maxlength="10" required>
+            <br>
+
+            <label for="data">Data de nascimento: </label>
+            <input type = "date" id="data" name="data_nascimento">
+            <br>
+
+            <label for="filhos">Número de filhos: </label>
+            <input type="number" id="filhos" value="0" name="filhos">
+            <br>
+
+            Escolaridade:
+            <input type="radio" name="escolaridade" id="ensino_medio" value="Ensino Médio">
+            <label for="ensino_medio">Ensino Médio</label>
+
+            <input type="radio" name="escolaridade" id="ensino_superior" value="Ensino Superior">
+            <label for="ensino_superior">Ensino Superior</label>
+
+            <input type="radio" name="escolaridade" id="pos_graduacao" value="pos_graduacao">
+            <label for="pos_graduacao">Pós Graduação</label>
+            <br>
+
+            Quais dessas áreas são do seu interesse?<br>
+            <input type="checkbox" name="areas" value="Química">
+            <label for="quimica">Química</label>
+            <br>
+
+            <input type="checkbox" name="areas" value="Biologia">
+            <label for="biologia">Biologia<label>
+            <br>
+
+            <input type="checkbox" name="areas" value="Geografia">
+            <label for="geografia">Geografia</label>
+            <br>
+            <label id="setor">Qual o seu setor? </label>
+            <select id="setor" name="setor">
+                <option value="administrativo">Administrativo</option>
+                <option value="operacional" selected >Operacional</option>
+                <option value="suporte">Suporte</option>
+            </select>
+            <br>
+        <!-- posso permitir que meu usuário faça upload em meu site -->
+
+            <label>Foto de Perfil</label>
+            <input type="file" name="foto" id="foto" accept="image/png, image/jpeg">
+
+        <!-- input de um token, uma chave interna -->
+            <input type="hidden" name="token" value="yyyyyyyy">
+            
+            <br>
+            <!-- para colocar uma área de texto grande dentro do input -->
+            Mensagem:<br>
+            <textarea></textarea>
+            <br>
+            <!-- tag para limpar o formulário -->
+            <button type="reset">Limpar</button>
+            <button disabled>Desabilitado</button>
+            <!-- o botão que irá submeter o formulário  -->
+            <button type="submit">Enviar</button>
+
+
+        </fieldset>
+    </form>
+</body>
+</html>

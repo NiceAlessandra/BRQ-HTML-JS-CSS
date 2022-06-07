@@ -1,0 +1,10 @@
+span{
+    color: white;
+}
+div{
+    background-color: crimson;
+}
+
+/* comandos de css in line têm prioridade */
+/* caso passe duas tags com o mesmo nome a que
+prevalecerá será sempre a última */
