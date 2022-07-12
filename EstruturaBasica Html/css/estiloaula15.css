@@ -1,0 +1,31 @@
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* tamanho padrão do navegador = 16px (pixels) */
+    font-size: 1.5rem; 
+    /* rem(raiz e elemento pai)medida raiz = 16px */
+    /* em px large medium*/
+} /* classe é com ponto*/ 
+.txt1{
+    /* espessura da fonte - texto bem fino  */
+    font-weight: 100;
+    /* text-decoration: line-through; */
+    text-decoration: underline;
+    /* todas as letras maiúsculas */
+    text-transform: uppercase;
+    text-align: center;
+    /*linetrought - linha cortando o texto - tipo promocao*/
+}
+.txt2{
+    font-weight: 800; /* bold */
+    /* todas as letras minúsculas uppercase */
+    text-transform: lowercase;
+    text-align: end;
+    
+}
+.txt3{
+    text-decoration: none;
+    /* todas as primeiras letras de todas as palavras */
+    text-transform: capitalize;
+    text-align: justify;
+}

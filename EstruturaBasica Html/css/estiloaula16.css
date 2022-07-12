@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.bloco{
+    background-color: orangered;
+    width: 100px;
+    height: 100px;
+    margin: 20px 10px 5px; /* 20pixels na vertical e 10pixels na horizontal*/ 
+    padding: 10px 5px 2px; /* 3 parametros - em cima aos lados e abaixo*/ 
+}
+
+
+
+
+/*.class{
+    color: rgba(236, 228, 238, 0.342)
+    
+}
+.class1{
+    color: #ffd000a2;
+}*/
+ 

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listas e Formulários</title>
+</head>
+<body>
+    
+   <form action="multipart/form-data">
+    <label for="nome">Nome:</label>
+    <input type="text" id="nome" name="nome" placeholder="Digite seu nome">
+    <br><br>
+    <label for="endereco">Endereço:</label>
+    <input type="endereco" id="endereco" name="endereco" placeholder="Digite seu endereço">
+    <br><br>
+
+    <label id="escolaridade">Escolaridade:</label>
+    <select id="escolaridade" name="escolaridade">
+        <option value="ensino_fundamental">Ensino Fundamental</option>
+        <option value="ensino_medio">Ensino médio</option>
+        <option value="ensino_superior">Ensino Superior</option>
+        <option value="pos_graduacao">Pós Graduação</option>
+    </select>
+    <br><br>
+    
+    Setor:
+        <input type="radio" name="setor" id="gerencia" value="Gerencia">
+        <label for="gerencia">Gerência</label>
+
+        <input type="radio" name="setor" id="financeiro" value="Financeiro">
+        <label for="financeiro">Financeiro</label>
+        
+        <input type="radio" name="setor" id="recepcao" value="Recepcao">
+        <label for="recepcao">Recepção</label>
+
+        <input type="radio" name="setor" id="administrativo" value="Administrativo">
+        <label for="administrativo">Administrativo</label>
+        <br><br>
+
+        Quais áreas possui interesse:
+        <br><br>
+        <input type="checkbox" name="area" value="Computacao">
+        <label for="computacao">Computação</label>
+        
+        <input type="checkbox" name="area" value="Engenharia">
+        <label for="engenharia">Engenharia</label>
+        
+        <input type="checkbox" name="area" value="Biologia">
+        <label for="biologia">Biologia</label>
+        
+        <input type="checkbox" name="area" value="psicologia">
+        <label for="psicologia">Psicologia</label>
+        <br><br>
+        Observações:<br><br>
+        <textarea name="textarea" id="textarea" cols="20" rows="5"></textarea>
+        <br><br>
+        <button type="reset">Limpar</button>
+        <button type="submit">Enviar</button>
+
+   </form>
+        
+</body>
+</html>
