@@ -2,3 +2,8 @@ https://mui.com/pt/
 https://pt-br.reactjs.org/
 https://styled-components.com/
 https://codepen.io/pen/
+zen-coding -> conceito HTML - páginas com mesmo html e css diferentes
+Livros:
+01- O guia essencial de HTML5 - capa roxa - autora: Jeanine Meyer
+02- Livro Programação Profissional Em HTML5 - Alta Books
+03- JavaScript - O guia definitivo (Rinoceronte na capa) - Editora O'Reilly
