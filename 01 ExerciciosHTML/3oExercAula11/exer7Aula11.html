@@ -24,11 +24,29 @@
             <label for="endereco">Endereço:</label>
             <input type="text" name="endereco" id="endereco" placeholder="Digite o endereço">
             <br><br>
+
             <label for="cor">Cor do Perfil:</label>
+            <input type="color" id="cores" name="CorPerfil" list="CorPerfil" value="#FF0000">
+                <datalist id="CorPerfil">
+                    <option value="#FF0000">Vermelho</option>
+                    <option value="#FFA500">Laranja</option>
+                    <option value="#FFFF00">Amarelo</option>
+                    <option value="#008000">Verde</option>
+                    <option value="#0000FF">Azul</option>
+                    <option value="#4B0082" selected>Indigo</option>
+                    <option value="#EE82EE">Violeta</option>
+                </datalist>
             <br><br>
+
             <label for="cursos">Cursos concluídos:</label>
+            <select name="cursos" id="cursos">
+                <option value="curso01" selected>Curso01</option>
+                <option value="curso02">Curso02</option>
+                <option value="curso03">Curso03</option>
+            </select>
             <br><br>
             <label for="cursos">Insira seu currículo:</label>
+            <input type="file" name="curriculo" id="curriculo">
             <br><br>
 
             
