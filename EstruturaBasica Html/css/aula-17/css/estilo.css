@@ -3,25 +3,25 @@ section{
     height: 200px;
 }
 
-.Secao1 {
+.Secao1{
     background-color: violet;
 }
 
-.Secao2 {
-    background-image: url("./img01.jpg");
+.Secao2{
+    background-image: url("img/img01.jpg");
     background-position: center;
-    height: 500px;
+    height: 200px;
 
 }
-.Secao3 {
-    background-image: url("./img02.jpg");
+.Secao3{
+    background-image: url("img/img02.jpg");
     background-position: center;
     background-attachment: fixed;
 }
-.Secao4 {
-    background-image: url("./img03.jpg");
+.Secao4{
+    background-image: url("img/img03.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: botton;
-    filter: blur(10px); 
+    background-position: bottom;
+    filter: blur(5px); 
 }

@@ -66,9 +66,9 @@ h3{
     position: relative;
     border: 1px solid #CCCCCC;
     border-radius: 5px;
-    padding: 20px;
-    margin: 20px;
-    height: 20px;
+    padding: 30px;
+    margin: 30px;
+    height: 150px;
 }
 .favorito{
     position: absolute;
@@ -80,7 +80,7 @@ h3{
     background-color: var(--azul);
     padding: 80px;
 }
-.full hd{
+.full h3{
     color: white;
 }
 #novidades{
@@ -100,6 +100,9 @@ h3{
     padding: 20px 30px;
     border-radius: 5px;
     cursor: pointer;
+}
+#sobre{
+    text-align: justify;
 }
 footer{
     position: relative;
