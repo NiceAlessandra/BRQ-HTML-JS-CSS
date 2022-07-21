@@ -1,0 +1,70 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height: 1200px;
+    
+}
+.imagem{
+    width: 100%;
+}
+h1{
+    font-family: 'RougeScript';
+    font-size: 96px;
+    font-weight: 1000;
+    color:#A38314;
+    text-align: right;
+}
+.paragr1{
+    text-align: center;
+    font-family: 'Roboto';
+    font-size: 18px;
+    color: #F00A0A;
+}
+.paragr2{
+    text-align: right;
+    font-family: 'Roboto';
+    font-size: 18px;
+    color: #1B137B;
+}
+.paragr3{
+    text-align: left;
+    font-family: 'Roboto';
+    font-size: 18px;
+    color: #0B6B2C;
+}
+.paragr4{
+    text-align: justify;
+    font-family: 'Roboto';
+    font-size: 18px;
+    color: #000000;
+}
+
+#h2p1{
+    font-family: 'Kranky';
+    font-size: 36px;
+    font-weight: 1000;
+    text-align: center; 
+    color: #F00A0A;
+}
+#h2p2{
+    font-family: 'Kranky';
+    font-size: 36px;
+    font-weight: 1000;
+    text-align: right; 
+    color: #1B137B;
+}
+#h2p3{
+    font-family: 'Kranky';
+    font-size: 36px;
+    font-weight: 1000;
+    text-align: left; 
+    color: #0B6B2C;
+}
+#h2p4{
+    font-family: 'Kranky';
+    font-size: 36px;
+    font-weight: 1000;
+    text-align: justify; 
+    color: #000000;
+}
+
+
