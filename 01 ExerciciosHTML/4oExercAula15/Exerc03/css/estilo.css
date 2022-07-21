@@ -1,0 +1,33 @@
+body{
+    height: 1200px;
+    
+}
+
+h1{
+    font-family: 'Seaweed';
+    font-size: 72px;
+    color: #A93983;
+}
+.imagem{
+    width: 100%;
+}
+
+.paragr1{
+    font-family: 'Roboto';
+    font-size: 24px;
+    text-align: right;
+}
+
+.paragr2{
+    font-family: 'QuickSand';
+    font-size: 18px;
+    text-align: right;
+    
+    
+}
+.endereco{
+    text-align: right;
+}
+.rodape{
+    text-align: center;
+}

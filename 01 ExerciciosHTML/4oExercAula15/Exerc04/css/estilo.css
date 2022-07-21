@@ -1,0 +1,65 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height: 1200px;
+    
+}
+.imagem{
+    width: 100%;
+}
+h2{
+    text-align: right;
+    font-family: 'Roboto';
+    font-size: 26px;
+    color: #000000;
+}
+.fs1{
+    font-family: 'Rokkitt';
+    font-weight: 1000;
+    color: #EB2020;
+}
+.fs2{
+    font-family: 'Courier';
+    font-weight: 1000;
+    color: #730AC6;
+}
+.fs3{
+    font-family: 'Rosarivo';
+    font-weight: 1000;
+    color:#0E8D58;
+}
+.fss{
+    text-align: right;
+}
+.fss1{
+    font-family: 'Saira';
+    font-weight: 1000;
+    text-align: right;
+    color:#659A77;
+}
+.fss2{
+    font-family: 'Content';
+    font-weight: 1000;
+    text-align: right;
+    color: #FC5812;
+}
+.fss3{
+    font-family: 'Padauk';
+    font-weight: 1000;
+    text-align: right;
+    color: #154EE0;
+}
+.ff1{
+    font-family: 'RougeScript';
+    font-weight: 1000;
+    color:#000000;
+}
+.ff2{
+    font-family: 'Plaster';
+    font-weight: 1000;
+    color:#840D87;
+}
+.ff3{
+    font-family: 'Kranky';
+    font-weight: 1000;
+    color: #EF6C0C;
+}
