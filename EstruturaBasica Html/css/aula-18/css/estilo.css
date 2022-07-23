@@ -6,7 +6,7 @@
     width: 40px;
     height: 40px;
     margin: 10px;
-    background-color: tomato;
+    background-color: green;
     display: inline-block;
 }
 .float_exemplo div:last-child{
